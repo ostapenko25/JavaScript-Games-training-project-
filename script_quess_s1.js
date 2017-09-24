@@ -1,14 +1,13 @@
    function playGuess_single() {
         var attemptCount = 1;
-        var answer = parseInt(Math.random() * 100); // случайное число от 0 до 1, уможаем его на 100 и округляем до целого - ГЕНЕРАТОР СЛУЧАЙНОГО ЧИСЛА
-        // alert(answer); // показать загаданное компьютером число
+        var answer = parseInt(Math.random() * 100); 
+       
 
-
-        while (true) { // бесконечный цикл, выполяется до break
+        while (true) { 
 
             var userAnswer = prompt("Введите число от 0 до 100. Для выхода нажмите q");
             if (userAnswer == "q") {
-                break; // завершение цикла
+                break; 
             }
             userAnswer= parseInt(userAnswer);
 
