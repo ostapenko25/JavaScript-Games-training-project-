@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS Games</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="content">
+	<div id="header">           
+            <a href="puzzle.html">Загадки</a> 
+            <a href="guess_single.html">Угадайка</a> 
+            <a href="guess_multi.html">Угадайка мультиплеер</a>
+        </div>
+
+        <h3>Игра в загадки</h3>
+        <div id="center"> 
+            <div id="box">
+                <p>Кто под проливным дождем не намочит волосы?</p>
+                <input type="text" id="userAnswer1">
+                <p>Среднее арифметическое между велосипедом и мотоциклом?</p>
+                <input type="text" id="userAnswer2">
+	         <p>Что делает сторож, когда у него на голове сидит воробей?</p>
+                <input type="text" id="userAnswer3">
+                <p>Каких камней нет в море?</p>
+                <input type="text" id="userAnswer4">
+		        <p>Что бросают тогда, когда это необходимо, и поднимают тогда, когда это уже не нужно?</p>
+                <input type="text" id="userAnswer5">
+
+                <div id="result"></div>
+
+                <br><br>
+                <a href="#result" class="play" onclick="playPuzzle();">Ответить</a> 
+           
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">Copyright © 2017 <a href="https://github.com/ostapenko25" target="_blank">Yulia Ostapenko</a></div>
+        
+    <script src="script_puzzle.js"></script>
+    
+</body>
+</html>
