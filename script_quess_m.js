@@ -1,7 +1,7 @@
   function playGuess_multi() {
     var attemptCountuser1 = 1;
     var attemptCountuser2 = 1;
-    var answer = parseInt(Math.random() * 100); // случайное число от 0 до 1, уможаем его на 100 и округляем до целого - ГЕНЕРАТОР СЛУЧАЙНОГО ЧИСЛА
+    var answer = parseInt(Math.random() * 100); 
       
     var user1 = prompt("Введите имя первого игрока");
     var user2 = prompt("Введите имя второго игрока");
